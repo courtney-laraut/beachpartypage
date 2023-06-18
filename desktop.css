@@ -1,0 +1,266 @@
+@font-face {
+    font-family: "Tilt Prism";
+    src: url("TiltPrism-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Lilita";
+    src: url("LilitaOne-Regular.ttf") format('truetype');
+}
+
+
+
+/* Resetting Styles */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+  }
+
+/* Background */
+
+body {
+    background-color: rgb(255, 240, 226);
+}
+
+/* Header Image and Text */
+
+#mainhead {
+
+    border-radius: 50%;
+    padding-top: 3em;
+    margin-bottom: 10em;
+    
+}
+
+#bigheadreg {
+    font-family: "Lilita";
+    margin: 0;
+    font-size: 7em;
+    text-align: center;
+
+}
+
+#bighead {
+    font-family: "Tilt Prism";
+    color: rgb(255, 243, 135);
+    text-align: center;
+    margin: 0;
+    font-size: 7em;
+    font-weight: bold;
+    text-shadow: 2px 3px 1px rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+#firstline {
+    margin-top: 3em;
+    margin-bottom: 0;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(75, 152, 254);
+    
+}
+
+#secondline {
+    margin: 0;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(75, 152, 254);
+}
+
+
+/* Block Text */
+
+#blurb {
+    background-color:rgb(250, 205, 181) ;
+    max-width: 100%;
+    padding: 3em;
+
+    
+}
+
+#regtext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 4em;
+    text-shadow: 2px 2px 2px gray;
+    
+}
+
+
+#styletext {
+    text-align: right;
+    padding: 5px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    text-shadow: 2px 2px 2px white;
+
+}
+
+blockquote:before {
+    content: open-quote;
+    font-size: 2em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+   vertical-align: -0.1em;
+    color: white;
+}
+
+blockquote:after {
+    content: close-quote;
+    font-size: 2em;
+    line-height: 0.1em;
+    margin-left: 0.25em;
+    vertical-align: -0.6em;
+    color: white;
+}
+
+/* Party Details */
+
+#detail > #beachpic {
+    width: 300px;
+    display: inline;
+   float: right;
+   background-color: lightblue;
+   border-radius: 50%;
+   margin: -0.25em;
+    
+}
+
+#detail > #flowerpic {
+    width: 250px;
+    display: inline;
+    float: left;
+    margin: 0.25em;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+#detail > h2, h3 {
+    font-family: lilita;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#detail {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.0em;
+    margin-top: 1em;
+    padding: 2em;
+    margin-bottom: 4em;
+    padding-right: 4em;
+}
+
+#detail > p {
+    margin-bottom: 0.5em;
+}
+
+/* Schedule Table */
+
+table {
+    text-align: center;
+    padding: 2em;
+    margin-right: 5em;
+    margin-left: 5em;
+    
+}
+
+td {  
+    border-bottom: 2px solid #ddd;
+    padding: 0.5em;
+}
+
+.time {
+    font-weight: bold;
+    font-size: 1.em;
+    background-color: #f2f2f2;
+    
+}
+
+.info {
+    background-color: white;
+}
+
+.floattext {
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    float: right;
+    background-color: lightblue;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.didyou {
+    font-size: 1em;
+    color: white;
+    transform: rotate(15deg);
+    margin-top: 1.05em;
+    padding: 1em;
+
+}
+
+.floralimg {
+    height: 250px;
+    display: inline;
+    float: right;
+    transform: translate(150%, 30%) rotate(290deg);
+
+}
+
+
+.inlinePic {
+    max-width: 100%;
+    background-color: lightblue;
+    display: block;
+}
+
+.randotext {
+    position: relative;
+    text-align: center;
+    color: white;
+
+
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-family: lilita;
+    font-size: 8em;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.centered1 {
+    position: absolute;
+  bottom:10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: lilita;
+    font-size: 8em;
+    text-shadow: 2px 2px 2px black;
+}
+
+.hidden {
+    color: #fffbfb00;
+    font-size: 30px;
+}
+
+footer {
+    color: white;
+    background-color:rgb(75, 152, 254) ;
+    position: bottom;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1em;
+    font-size: 1em;
+}
